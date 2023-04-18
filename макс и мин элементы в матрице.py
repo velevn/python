@@ -11,6 +11,7 @@ for row in random_matrix:
     min_index = 0
     min_value = row[min_index]
     max_index = 0
+
     max_value = row[max_index]
     for index_col in range(len(row)):
         if row[index_col] < min_value:
