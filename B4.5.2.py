@@ -14,6 +14,8 @@ def my_kv():
     print(10 ** 2)
 
 
+
+
 my_kv()
 my_kv()
 my_kv()
