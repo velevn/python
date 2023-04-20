@@ -12,7 +12,6 @@ def cache(func):
         return cache_dict[num]
     return wrapper
 
-
 @cache
 def f(n):
     return n * 123456789
